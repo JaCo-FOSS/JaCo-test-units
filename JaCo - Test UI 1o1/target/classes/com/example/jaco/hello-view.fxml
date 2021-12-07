@@ -5,11 +5,11 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" opacity="0.96" prefHeight="501.0" prefWidth="599.0" spacing="20.0" style="-fx-background-color: orange;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.202-ea" fx:controller="com.example.jaco.HelloController">
+<VBox alignment="CENTER" opacity="0.84" prefHeight="475.0" prefWidth="482.0" spacing="20.0" style="-fx-background-color: orange;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.202-ea" fx:controller="com.example.jaco.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
     <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" opacity="0.88" prefHeight="31.0" prefWidth="157.0" style="-fx-background-color: white;" text="H o w d y  U s e r  !" />
+    <Button onAction="#onHelloButtonClick" opacity="0.91" prefHeight="31.0" prefWidth="159.0" style="-fx-background-color: white;" text="H o w d y  U s e r  !" />
 </VBox>
